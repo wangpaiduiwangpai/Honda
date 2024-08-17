@@ -3,7 +3,8 @@ import numpy as np
 import mpl_toolkits.mplot3d.axes3d as p3
 
 fig = plt.figure()
-ax = p3.Axes3D(fig)
+ax = p3.Axes3D(fig,auto_add_to_figure=False)
+fig.add_axes(ax)
 
 # prepare the data
 X = np.arange(-4, 4, 0.25)
