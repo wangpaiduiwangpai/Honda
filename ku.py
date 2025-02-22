@@ -1,8 +1,10 @@
+import random
+
+def ku():
+    return random.randint(1, 6)
+print(ku())
 
 
-
-import jupyter
-jupyter.run_notebook('d:\double\ku.ipynb')
 
 
 
